@@ -1,4 +1,4 @@
-![Rust CI](https://github.com/<username>/corelab/actions/workflows/rust.yml/badge.svg)
+![Rust CI](https://github.com/SagarBhattacharya/corelab/actions/workflows/rust.yml/badge.svg)
 
 # CoreLab
 
