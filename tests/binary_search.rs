@@ -1,5 +1,5 @@
 use corelab::binary_search::binary_search;
-use rand::{random_range};
+use rand::random_range;
 
 #[test]
 fn test_binary_search_cases() {
