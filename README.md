@@ -92,7 +92,7 @@ Depending on the implementation, different testing techniques are used:
 Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/corelab.git
+git clone https://github.com/SagarBhattacharya/corelab.git
 cd corelab
 ```
 
