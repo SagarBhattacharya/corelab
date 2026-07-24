@@ -59,7 +59,7 @@ corelab/
 |-----------|----------------------------|:------:|
 | Searching | Binary Search              |   ✅    |
 | Linear    | Static Vector              |   ✅    |
-| Linear    | Queue                      |   ⏳    |
+| Linear    | Dynamic Vector             |   ✅    |
 | Sorting   | Merge Sort                 |   ⏳    |
 | Sorting   | Quick Sort                 |   ⏳    |
 | Trees     | Binary Search Tree         |   ⏳    |
