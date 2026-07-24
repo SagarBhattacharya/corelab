@@ -4,18 +4,22 @@ use rand::random_range;
 #[test]
 fn test_binary_search_cases() {
     let tests = [
-        (&[][..], 2, None),
-        (&[5], 5, Some(0)),
-        (&[5], 4, None),
-        (&[1, 2, 3, 4], 1, Some(0)),
-        (&[1, 2, 3, 4], 4, Some(3)),
-        (&[1, 2, 3, 4, 5], 3, Some(2)),
-        (&[1, 2, 3, 4, 5], 6, None),
-        (&[-3, -2, -1, 0, 1, 2, 3, 4], -2, Some(1)),
+        ("empty array", &[][..], 2, None),
+        ("one element array", &[5], 5, Some(0)),
+        ("found first element", &[1, 2, 3, 4], 1, Some(0)),
+        ("found last element", &[1, 2, 3, 4], 4, Some(3)),
+        ("found middle element", &[1, 2, 3, 4, 5], 3, Some(2)),
+        ("element not found", &[1, 2, 3, 4, 5], 6, None),
+        (
+            "negative element",
+            &[-3, -2, -1, 0, 1, 2, 3, 4],
+            -2,
+            Some(1),
+        ),
     ];
 
-    for (arr, target, expected) in tests {
-        assert_eq!(binary_search(arr, &target), expected);
+    for (name, arr, target, expected) in tests {
+        assert_eq!(binary_search(arr, &target), expected, "test failed: {name}");
     }
 }
 

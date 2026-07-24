@@ -58,7 +58,7 @@ corelab/
 | Category  | Algorithm / Data Structure | Status |
 |-----------|----------------------------|:------:|
 | Searching | Binary Search              |   ✅    |
-| Linear    | Stack                      |   ⏳    |
+| Linear    | Static Vector              |   ✅    |
 | Linear    | Queue                      |   ⏳    |
 | Sorting   | Merge Sort                 |   ⏳    |
 | Sorting   | Quick Sort                 |   ⏳    |
