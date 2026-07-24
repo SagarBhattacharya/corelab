@@ -60,14 +60,6 @@ corelab/
 | Searching | Binary Search              |   ✅    |
 | Linear    | Static Vector              |   ✅    |
 | Linear    | Dynamic Vector             |   ✅    |
-| Sorting   | Merge Sort                 |   ⏳    |
-| Sorting   | Quick Sort                 |   ⏳    |
-| Trees     | Binary Search Tree         |   ⏳    |
-| Trees     | AVL Tree                   |   ⏳    |
-| Trees     | Red-Black Tree             |   ⏳    |
-| Graphs    | BFS                        |   ⏳    |
-| Graphs    | DFS                        |   ⏳    |
-| Graphs    | Dijkstra                   |   ⏳    |
 
 > This table will continue to grow as new implementations are added.
 
