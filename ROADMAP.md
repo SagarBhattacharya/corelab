@@ -12,7 +12,7 @@
 ---
 
 ### Day 3
-- Implement a generic stack using DynamicVec.
+- Implement a generic stack using Vector.
 - Implement a generic circular queue (ring buffer).
 
 ---
