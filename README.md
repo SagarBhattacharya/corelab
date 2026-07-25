@@ -55,11 +55,13 @@ corelab/
 
 ## Implementations
 
-| Category  | Algorithm / Data Structure | Status |
-|-----------|----------------------------|:------:|
-| Searching | Binary Search              |   ✅    |
-| Linear    | Static Vector              |   ✅    |
-| Linear    | Dynamic Vector             |   ✅    |
+| Category  | Implementation | Status |
+|-----------|----------------|:------:|
+| Searching | Binary Search  |   ✅    |
+| Linear    | Static Vector  |   ✅    |
+| Linear    | Dynamic Vector |   ✅    |
+| Linear    | Stack          |   ✅    |
+| Linear    | Circular Queue |   ✅    |
 
 > This table will continue to grow as new implementations are added.
 
