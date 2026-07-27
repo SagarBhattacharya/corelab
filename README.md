@@ -55,15 +55,15 @@ corelab/
 
 ## Implementations
 
-| Category  | Implementation | Status |
-|-----------|----------------|:------:|
-| Searching | Binary Search  |   ✅    |
-| Linear    | Static Vector  |   ✅    |
-| Linear    | Dynamic Vector |   ✅    |
-| Linear    | Stack          |   ✅    |
-| Linear    | Circular Queue |   ✅    |
-| Heap      | Binary Heap    |   ✅    |
-| Heap      | Priority Queue |   ⏳    |
+| Category      | Implementation       | Status |
+|---------------|----------------------|:------:|
+| Searching     | Binary Search        |   ✅    |
+| Linear        | Static Vector        |   ✅    |
+| Linear        | Dynamic Vector       |   ✅    |
+| Linear        | Stack                |   ✅    |
+| Linear        | Circular Queue       |   ✅    |
+| Heap          | Max Binary Heap      |   ✅    |
+| Linked Lists  | Singly Linked List   |   ✅    |
 
 > This table will continue to grow as new implementations are added.
 

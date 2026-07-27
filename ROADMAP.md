@@ -1,31 +1,36 @@
 # CoreLab Roadmap
 
 ### Day 1
-- Implement a generic binary search function.
+- Implement a generic binary search function for efficiently locating 
+  an element in a sorted collection using the divide-and-conquer technique.
 
 ---
 
 ### Day 2
-- Implement a generic static vector with fixed capacity.
-- Implement a generic dynamic vector with growable capacity.
+- Implement a generic static vector with fixed capacity using 
+  contiguous memory and manual initialization management.
+- Implement a generic dynamic vector with growable capacity 
+  using heap allocation and manual memory management.
 
 ---
 
 ### Day 3
-- Implement a generic stack using Vector.
-- Implement a generic circular queue (ring buffer).
+- Implement a generic stack supporting Last-In, First-Out (LIFO) 
+  operations using a contiguous vector as the underlying storage.
+- Implement a generic circular queue (ring buffer) supporting 
+  constant-time FIFO insertion and removal using wrap-around indexing.
 
 ---
 
 ### Day 4
-- Implement a generic max binary heap supporting insertion, removal of the root element, 
-  and retrieval of the maximum element while maintaining the heap property.
-- Implement a generic priority queue using Binary Heap.
+- Implement a generic max binary heap supporting insertion, removal of the root 
+  element, and retrieval of the maximum element while maintaining the heap property.
+- Implement a generic singly linked list supporting insertion and 
+  removal, along with traversal and lookup operations.
 
 ---
 
 ### Day 5
-- Implement a generic singly linked list.
 - Implement a generic doubly linked list.
 
 ---
@@ -36,7 +41,6 @@
 ---
 
 ### Day 7
-### Balanced Trees
 - Implement a generic AVL tree.
 
 ---
