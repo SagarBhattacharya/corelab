@@ -62,6 +62,8 @@ corelab/
 | Linear    | Dynamic Vector |   ✅    |
 | Linear    | Stack          |   ✅    |
 | Linear    | Circular Queue |   ✅    |
+| Heap      | Binary Heap    |   ✅    |
+| Heap      | Priority Queue |   ⏳    |
 
 > This table will continue to grow as new implementations are added.
 

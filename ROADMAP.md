@@ -18,7 +18,8 @@
 ---
 
 ### Day 4
-- Implement a generic binary heap.
+- Implement a generic max binary heap supporting insertion, removal of the root element, 
+  and retrieval of the maximum element while maintaining the heap property.
 - Implement a generic priority queue using Binary Heap.
 
 ---
