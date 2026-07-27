@@ -1,9 +1,11 @@
-pub struct SinglyLinkedList<T> {
+mod tests;
+
+pub struct LinkedList<T> {
     head: Option<Box<Node<T>>>,
     len: usize,
 }
 
-impl<T> SinglyLinkedList<T> {
+impl<T> LinkedList<T> {
     pub fn new() -> Self {
         Self { head: None, len: 0 }
     }
@@ -92,7 +94,7 @@ impl<T> SinglyLinkedList<T> {
     }
 }
 
-impl<T> Default for SinglyLinkedList<T> {
+impl<T> Default for LinkedList<T> {
     fn default() -> Self {
         Self::new()
     }

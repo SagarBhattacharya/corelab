@@ -1,4 +1,6 @@
-use corelab::dynamic_vector::DynamicVec;
+#![cfg(test)]
+
+use super::DynamicVec;
 use std::cell::Cell;
 use std::rc::Rc;
 

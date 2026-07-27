@@ -1,3 +1,5 @@
+mod tests;
+
 use std::ptr::NonNull;
 
 type Link<T> = NonNull<Node<T>>;

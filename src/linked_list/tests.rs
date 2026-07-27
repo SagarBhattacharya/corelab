@@ -1,10 +1,12 @@
-use corelab::singly_linked_list::SinglyLinkedList;
+#![cfg(test)]
+
+use super::LinkedList;
 use std::cell::Cell;
 use std::rc::Rc;
 
 #[test]
 fn new_list() {
-    let list = SinglyLinkedList::<i32>::new();
+    let list = LinkedList::<i32>::new();
 
     assert_eq!(list.len(), 0);
     assert!(list.is_empty());
@@ -13,7 +15,7 @@ fn new_list() {
 
 #[test]
 fn insert_front() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 10).unwrap();
     list.insert(0, 20).unwrap();
@@ -28,7 +30,7 @@ fn insert_front() {
 
 #[test]
 fn insert_back() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 1).unwrap();
     list.insert(1, 2).unwrap();
@@ -41,7 +43,7 @@ fn insert_back() {
 
 #[test]
 fn insert_middle() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 1).unwrap();
     list.insert(1, 3).unwrap();
@@ -54,7 +56,7 @@ fn insert_middle() {
 
 #[test]
 fn remove_front() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 1).unwrap();
     list.insert(1, 2).unwrap();
@@ -69,7 +71,7 @@ fn remove_front() {
 
 #[test]
 fn remove_middle() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     for i in 1..=5 {
         list.insert(list.len(), i).unwrap();
@@ -85,7 +87,7 @@ fn remove_middle() {
 
 #[test]
 fn remove_back() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     for i in 1..=3 {
         list.insert(list.len(), i).unwrap();
@@ -100,7 +102,7 @@ fn remove_back() {
 
 #[test]
 fn get_mut() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 10).unwrap();
 
@@ -111,7 +113,7 @@ fn get_mut() {
 
 #[test]
 fn out_of_bounds() {
-    let mut list = SinglyLinkedList::<i32>::new();
+    let mut list = LinkedList::<i32>::new();
 
     assert!(list.insert(1, 5).is_err());
 
@@ -124,7 +126,7 @@ fn out_of_bounds() {
 
 #[test]
 fn stress_test() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     for i in 0..100 {
         list.insert(list.len(), i).unwrap();
@@ -141,7 +143,7 @@ fn stress_test() {
 
 #[test]
 fn alternating_insert_remove() {
-    let mut list = SinglyLinkedList::new();
+    let mut list = LinkedList::new();
 
     list.insert(0, 1).unwrap();
     list.insert(1, 2).unwrap();
@@ -178,7 +180,7 @@ fn drops_everything() {
     let counter = Rc::new(Cell::new(0));
 
     {
-        let mut list = SinglyLinkedList::new();
+        let mut list = LinkedList::new();
 
         for _ in 0..10 {
             list.insert(

@@ -1,3 +1,5 @@
+mod tests;
+
 use std::alloc::Layout;
 use std::mem::MaybeUninit;
 use std::ptr::NonNull;

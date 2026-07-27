@@ -1,3 +1,5 @@
+mod tests;
+
 pub struct Stack<T> {
     data: Vec<T>,
 }

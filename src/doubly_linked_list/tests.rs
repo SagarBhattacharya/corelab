@@ -1,4 +1,6 @@
-use corelab::doubly_linked_list::DoublyLinkedList;
+#![cfg(test)]
+
+use super::DoublyLinkedList;
 
 #[test]
 fn new_list() {

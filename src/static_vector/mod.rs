@@ -1,3 +1,5 @@
+mod tests;
+
 use std::mem::MaybeUninit;
 
 pub struct StaticVec<T, const N: usize> {

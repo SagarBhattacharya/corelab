@@ -1,4 +1,6 @@
-use corelab::static_vector::StaticVec;
+#![cfg(test)]
+
+use super::StaticVec;
 use std::cell::Cell;
 use std::rc::Rc;
 

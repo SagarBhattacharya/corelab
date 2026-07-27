@@ -1,3 +1,5 @@
+mod tests;
+
 use std::cmp::Ordering;
 
 pub fn binary_search<T: Ord>(list: &[T], target: &T) -> Option<usize> {

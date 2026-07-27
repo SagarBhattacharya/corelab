@@ -1,4 +1,6 @@
-use corelab::binary_heap::MaxBinaryHeap;
+#![cfg(test)]
+
+use super::MaxBinaryHeap;
 
 #[test]
 fn new_heap() {

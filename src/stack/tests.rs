@@ -1,4 +1,6 @@
-use corelab::stack::Stack;
+#![cfg(test)]
+
+use super::Stack;
 
 #[test]
 fn new_stack() {

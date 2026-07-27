@@ -1,3 +1,5 @@
+mod tests;
+
 pub struct MaxBinaryHeap<T: Ord> {
     data: Vec<T>,
 }

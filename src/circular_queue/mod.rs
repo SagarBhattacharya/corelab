@@ -1,3 +1,5 @@
+mod tests;
+
 use std::mem::MaybeUninit;
 
 pub struct Queue<T, const N: usize> {

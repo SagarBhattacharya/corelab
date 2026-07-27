@@ -1,4 +1,6 @@
-use corelab::binary_search::binary_search;
+#![cfg(test)]
+
+use super::binary_search;
 use rand::random_range;
 
 #[test]

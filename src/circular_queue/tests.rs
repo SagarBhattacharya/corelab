@@ -1,4 +1,6 @@
-use corelab::circular_queue::Queue;
+#![cfg(test)]
+
+use super::Queue;
 use std::cell::Cell;
 use std::rc::Rc;
 
