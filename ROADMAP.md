@@ -27,20 +27,18 @@
   element, and retrieval of the maximum element while maintaining the heap property.
 - Implement a generic singly linked list supporting insertion and 
   removal, along with traversal and lookup operations.
+- Implement a generic doubly linked list using manually managed pointers, supporting 
+  insertion, removal, bidirectional traversal, and indexed lookup while maintaining 
+  consistent forward and backward links.
 
 ---
 
 ### Day 5
-- Implement a generic doubly linked list.
-
----
-
-### Day 6
 - Implement a generic binary search tree.
 
 ---
 
-### Day 7
+### Day 6
 - Implement a generic AVL tree.
 
 ---
